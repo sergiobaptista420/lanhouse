@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <base target="_self">
+    <<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lan House Premium SP - Impressão, Digitalização e Computadores Gamers</title>
+    <meta name="description" content="Lan House em São Paulo com 20 computadores gamers i9, impressão colorida, boletim de ocorrência, segunda via de contas e serviços digitais">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1e40af",
+                        secondary: "#3b82f6",
+                        accent: "#f59e0b"
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row justify-between items-center py-6">
+                <div class="text-center lg:text-left mb-4 lg:mb-0">
+                    <h1 class="text-3xl lg:text-4xl font-bold">Lan House Premium SP</h1>
+                <p class="text-blue-100 mt-2">Serviços Digitais e Computadores Gamers</p>
+            </div>
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+                <a href="https://wa.me/5511940033603?text=Olá! Gostaria de mais informações sobre os serviços da lan house."
+                   class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i>
+                    Fale Conosco no WhatsApp
+                </a>
+                <div class="text-blue-100 text-center">
+                    <p class="font-semibold"><i class="fas fa-phone-alt mr-2"></i>(11) 94003-3603</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl lg:text-5xl font-bold mb-6">Tecnologia de Ponta em São Paulo</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">20 computadores gamers i9 com as melhores configurações do mercado para trabalho e entretenimento</p>
+            <a href="https://wa.me/5511940033603?text=Olá! Gostaria de reservar um computador gamer."
+               class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300 inline-flex items-center gap-2">
+                <i class="fab fa-whatsapp"></i>
+                Reservar Agora pelo WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-12">Nossos Serviços</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Impressão Preto e Branco -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition duration-300">
+                <div class="text-blue-600 text-center mb-4">
+                    <i class="fas fa-print text-4xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Impressão Preto e Branco</h3>
+                <p class="text-gray-600 mb-4">Impressão de documentos com qualidade e rapidez</p>
+                <a href="https://wa.me/5511940033603?text=Olá! Gostaria de fazer impressão preto e branco."
+                   class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i>
+                    Solicitar Impressão
+                </a>
+            </div>
+
+            <!-- Impressão Colorida -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition duration-300">
+                <div class="text-red-500 text-center mb-4">
+                    <i class="fas fa-palette text-4xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Impressão Colorida</h3>
+                <p class="text-gray-600 mb-4">Impressão colorida para fotos, trabalhos e apresentações</p>
+                <a href="https://wa.me/5511940033603?text=Olá! Gostaria de fazer impressão colorida."
+                   class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i>
+                    Solicitar Impressão
+                </a>
+            </div>
+
+            <!-- Boletim de Ocorrência -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition duration-300">
+                <div class="text-green-500 text-center mb-4">
+                    <i class="fas fa-file-alt text-4xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Boletim de Ocorrência</h3>
+                <p class="text-gray-600 mb-4">Auxílio na elaboração e impressão de boletim de ocorrência</p>
+                <a href="https://wa.me/5511940033603?text=Olá! Preciso de ajuda com boletim de ocorrência."
+                   class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i>
+                    Solicitar Ajuda
+                </a>
+            </div>
+
+            <!-- Segunda Via de Contas -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition duration-300">
+                <div class="text-purple-500 text-center mb-4">
+                    <i class="fas fa-file-invoice-dollar text-4xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Segunda Via de Contas</h3>
+                <p class="text-gray-600 mb-4">Emissão de segunda via de contas de água, luz, gás e telefone</p>
+                <a href="https://wa.me/5511940033603?text=Olá! Preciso emitir segunda via de contas."
+                   class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i>
+                    Solicitar Emissão
+                </a>
+            </div>
+
+            <!-- Agendamento Poupa Tempo -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition duration-300">
+                <div class="text-yellow-500 text-center mb-4">
+                    <i class="fas fa-calendar-check text-4xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Agendamento Poupa Tempo</h3>
+                <p class="text-gray-600 mb-4">Agendamento de serviços no Poupatempo com assistência especializada</p>
+                <a href="https://wa.me/5511940033603?text=Olá! Preciso de ajuda com agendamento no Poupatempo."
+                   class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i>
+                    Solicitar Agendamento
+                </a>
+            </div>
+
+            <!-- Digitalização de Documentos -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition duration-300">
+                <div class="text-indigo-500 text-center mb-4">
+                    <i class="fas fa-scanner text-4xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Digitalização de Documentos</h3>
+                <p class="text-gray-600 mb-4">Digitalização de documentos com qualidade profissional</p>
+                <a href="https://wa.me/5511940033603?text=Olá! Preciso digitalizar documentos."
+                   class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i>
+                    Solicitar Digitalização
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gaming Computers Section -->
+    <section class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center mb-4">20 Computadores Gamers Disponíveis</h2>
+            <p class="text-xl text-center text-blue-200 mb-12">As melhores configurações para jogos e trabalho</p>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://picsum.photos/600/400?random=1" alt="Computador Gamer i9 RTX 3060" class="w-full rounded-xl shadow-2xl">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Configuração Premium</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-microchip text-green-400"></i>
+                            <span><strong>Processador:</strong> INTEL CORE i9 11ª Geração</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-memory text-blue-400"></i>
+                            <span><strong>Memória:</strong> 64GB RAM DDR4 (2X 32GB)</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-hdd text-purple-400"></i>
+                            <span><strong>Armazenamento:</strong> SSD NVME M.2 2TB</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-desktop text-red-400"></i>
+                            <span><strong>Placa de Vídeo:</strong> RTX 3060 12GB</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-tv text-yellow-400"></i>
+                            <span><strong>Monitor:</strong> Gamer Curvo 24" 165Hz com Áudio</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-keyboard text-gray-400"></i>
+                            <span><strong>Periféricos:</strong> Teclado, Mouse e Headset</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5511940033603?text=Olá! Gostaria de reservar um computador gamer i9."
+                       class="mt-8 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300 inline-flex items-center gap-2">
+                        <i class="fab fa-whatsapp"></i>
+                        Reservar Computador Gamer
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-12">Por que Escolher Nossa Lan House?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bolt text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Internet Rápida</h3>
+                    <p class="text-gray-600">Conexão de alta velocidade para jogos online e downloads</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Ambiente Seguro</h3>
+                    <p class="text-gray-600">Localização privilegiada com segurança 24 horas</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-headset text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Suporte Técnico</h3>
+                    <p class="text-gray-600">Equipe especializada para auxiliar em qualquer necessidade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-800 to-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold mb-6">Pronto para Usar Nossos Serviços?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Entre em contato agora mesmo pelo WhatsApp e reserve seu horário</p>
+            <a href="https://wa.me/5511940033603?text=Olá! Gostaria de informações sobre os serviços e horários."
+               class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300 inline-flex items-center gap-2">
+                <i class="fab fa-whatsapp"></i>
+                Fale Conosco no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Lan House Premium SP</h3>
+                    <p class="text-gray-300 mb-4">Tecnologia de ponta para trabalho e entretenimento em São Paulo</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contato</h3>
+                    <div class="space-y-2">
+                        <a href="https://wa.me/5511940033603?text=Olá! Gostaria de informações sobre a lan house."
+                       class="text-gray-300 hover:text-white transition duration-300 flex items-center gap-2">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp: (11) 94003-3603
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-4">Horário de Funcionamento</h3>
+                <p class="text-gray-300">Segunda a Sábado: 8h às 22h</p>
+                <p class="text-gray-300">Domingo: 9h às 20h</p>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+            <p class="text-gray-400">&copy; 2024 Lan House Premium SP. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="https://wa.me/5511940033603?text=Olá! Gostaria de informações sobre os serviços."
+           class="bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition duration-300">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+    </div>
+
+    <script>
+        // WhatsApp integration
+        function openWhatsApp(message = "Olá! Gostaria de informações sobre os serviços da lan house.") {
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/5511940033603?text=${encodedMessage}`, "_self");
+        }
+
+        // Service data
+        const services = [
+            {
+                "name": "Impressão Preto e Branco",
+                "icon": "fas fa-print",
+                "color": "blue-600",
+                "description": "Impressão de documentos com qualidade e rapidez"
+            },
+            {
+                "name": "Impressão Colorida",
+                "icon": "fas fa-palette",
+                "color": "red-500",
+                "description": "Impressão colorida para fotos, trabalhos e apresentações"
+            },
+            {
+                "name": "Boletim de Ocorrência",
+                "icon": "fas fa-file-alt",
+                "color": "green-500",
+                "description": "Auxílio na elaboração e impressão de boletim de ocorrência"
+            },
+            {
+                "name": "Segunda Via de Contas",
+                "icon": "fas fa-file-invoice-dollar",
+                "color": "purple-500",
+                "description": "Emissão de segunda via de contas de água, luz, gás e telefone"
+            },
+            {
+                "name": "Agendamento Poupa Tempo",
+                "icon": "fas fa-calendar-check",
+                "color": "yellow-500",
+                "description": "Agendamento de serviços no Poupatempo com assistência especializada"
+            },
+            {
+                "name": "Digitalização de Documentos",
+                "icon": "fas fa-scanner",
+                "color": "indigo-500",
+                "description": "Digitalização de documentos com qualidade profissional"
+            }
+        ];
+
+        // Computer specifications
+        const computerSpecs = [
+            "Processador: INTEL CORE i9 11ª Geração",
+            "Memória: 64GB RAM DDR4 (2X 32GB)",
+            "Armazenamento: SSD NVME M.2 2TB",
+            "Placa de Vídeo: RTX 3060 12GB",
+            "Monitor: Gamer Curvo 24\" 165Hz com Áudio",
+            "Periféricos: Teclado, Mouse e Headset"
+        ];
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Lan House Premium SP - Site carregado com sucesso');
+        });
+    </script>
+</body>
+</html>
